@@ -1,0 +1,42 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import "~tailwindcss/base";
+@import "~tailwindcss/components";
+@import "~tailwindcss/utilities";
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import "~@fortawesome/fontawesome-free/scss/regular";
+@import "~@fortawesome/fontawesome-free/scss/solid";
+@import "~@fortawesome/fontawesome-free/scss/brands";
+input::placeholder {
+	color: #718096;
+	font-weight: 300;
+}
+
+.flex-100 {
+	flex: 0 1 100%;
+}
+
+.flex-50 {
+	flex: 0 1 50%;
+}
+
+.max-width-form {
+	max-width: 450px;
+}
+
+.checkbox {
+	transform: scale(1.2);
+}
+
+.bg-blue-google {
+	background-color: #4285F4;
+}
+
+.bg-pink-dribbble {
+	background-color: #EA4C89;
+}
+
+.button-icon {
+	position: absolute;
+	left: 23px;
+}
